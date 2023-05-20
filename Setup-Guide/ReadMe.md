@@ -9,7 +9,7 @@
     - Mac
     - Linux
 - [Set-Up](#set-up)
-  -[Create a Database](#create-a-database) 
+  - [Create a Database](#create-a-database) 
 
 
 
