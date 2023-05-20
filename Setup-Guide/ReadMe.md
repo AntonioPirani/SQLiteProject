@@ -22,6 +22,11 @@ In order to build SQLite yourself, you first need to extract the [latest SQLite 
 Alternatively, you can download the Zip file from the downloads page that dows not include a configuration or TEA and compile the files by hand / create your own makefile. </br> Congratulations! You have now successfully installed SQLite. To set up your first database, click [here].
 
 
+## Set-UP
+After successfully installing SQLite, you can create a database with the console command 'sqlite3 /path/to/database/test.db'. If you do not specify the path, the .db file will be created in the current directory you're in.</br>
+Once the database is created, you are within the SQLite Shell, where you now are able to use the database by running commands like SELECT, INSERT, UPDATE, DELETE, CREATE TABLE, ALTER TABLE... . The General syntax of commands within the shell is: sqlite> COMMAND [OPTIONS] [TABLE]; instead of COMMAND [OPTIONS] [DATABASE] [TABLE]. You can exit the SQLite shell with .quit. In order to look up all databases within your SQLite installation, use .databases. This will list all databases with their path.
+
+
 
 
 
