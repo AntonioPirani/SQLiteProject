@@ -8,7 +8,7 @@
     - Windows
     - Mac
     - Linux
-- Set-Up 
+- [Set-Up](#set-up)
 
 
 ## Download
