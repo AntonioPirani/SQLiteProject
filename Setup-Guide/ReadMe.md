@@ -1,12 +1,14 @@
 # Setup-Guide
 
 ### Contents
-- [Download](#download)
-- [Building SQLite](#building-sqlite)
-- Using Prebuilt Libraries
-  - Windows
-  - Mac
-  - Linux
+- Installation
+  - [Download](#download)
+  - [Building SQLite](#building-sqlite)
+  - Using Prebuilt Libraries
+    - Windows
+    - Mac
+    - Linux
+- Set-Up 
 
 
 ## Download
