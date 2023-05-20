@@ -9,8 +9,11 @@
     - Mac
     - Linux
 - [Set-Up](#set-up)
+  -[Create a Database](#create-a-database) 
 
 
+
+# Installation
 ## Download
 The first thin to do in order to set up a SQLite Database is to get a copy of the prebuilt binaries for your machine, or get a copy 
 of the sources and compile them yourself. Be careful to download the correct files for your system if you use prebuilt binaries. All 
@@ -22,7 +25,8 @@ In order to build SQLite yourself, you first need to extract the [latest SQLite 
 Alternatively, you can download the Zip file from the downloads page that dows not include a configuration or TEA and compile the files by hand / create your own makefile. </br></br>Congratulations! You have now successfully installed SQLite. To set up your first database, click [here](#set-up).
 
 
-## Set-UP
+# Set-UP
+## Create a database
 After successfully installing SQLite, you can create a database with the console command 'sqlite3 /path/to/database/test.db'. If you do not specify the path, the .db file will be created in the current directory you're in.</br></br></br> ![create database](./Screenshot_SQLiteShell.png)
 </br></br></br> Once the database is created, you are within the SQLite Shell, where you now are able to use the database by running commands like SELECT, INSERT, UPDATE, DELETE, CREATE TABLE, ALTER TABLE... . The General syntax of commands within the shell is: sqlite> COMMAND [OPTIONS] [TABLE]; instead of COMMAND [OPTIONS] [DATABASE] [TABLE]. </br></br></br></br></br></br>You can exit the SQLite shell with .quit. </br></br></br></br></br></br>In order to look up all databases within your SQLite installation, use .databases. This will list all databases with their path.
 
