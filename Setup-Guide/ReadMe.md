@@ -1,4 +1,4 @@
-# Setup-Guide
+# Installaton & Setup-Guide
 
 ### Contents
 - Installation
