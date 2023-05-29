@@ -31,8 +31,21 @@ Alternatively, you can download the Zip file from the downloads page that dows n
 
 # Set-UP
 ## Create a database
-After successfully installing SQLite, you can create a database with the console command 'sqlite3 /path/to/database/test.db'. If you do not specify the path, the .db file will be created in the current directory you're in.</br></br>![create database](./Screenshot_SQLiteShell.png)
-</br></br></br> Once the database is created, you are within the SQLite Shell, where you now are able to use the database by running commands like SELECT, INSERT, UPDATE, DELETE, CREATE TABLE, ALTER TABLE... . The General syntax of commands within the shell is: COMMAND [OPTIONS] [DATABASE] [TABLE]. </br></br>![SetUp SQLiteDB](./Screenshot_SetUPConsole.png)</br></br></br> If you want to look up the tables currently present in your database, enter '.tables' within the Shell. </br></br>![lookup tables](./Screenshot_tables.png)</br></br></br> To look up the schema of a specific table, enter '.schema "tableName"'. </br></br></br>![schema of a table](./Screenshot_schema.png)</br></br></br>In order to look up all databases within your current SQLite connection, use '.databases'.</br></br>![preAttach](./Screenshot_preAttach.png)</br></br></br> This will list all databases with their path. Database files can be added to the current connnection using the 'ATTACH DATABASE "PATH/TO/.dbFile" AS alias'</br></br>![postAttach](./Screenshot_postAttach.png)</br>But be careful, if you forget the the file type, here to see in the "aliasDB", where I forgot the .db, the database will be a virtual database (transient in-memory database), instead of a physical, which means it is not Persistent, but stored in the RAM. This also applies for not specifying the exact database when calling only 'sqlite3'</br></br>You can exit the SQLite shell with '.quit'. </br></br>![quit shell](./Screenshot_quitShell.png)</br></br></br>
+After successfully installing SQLite, you can create a database with the console command 'sqlite3 /path/to/database/test.db'. If you do not specify the path, the .db file will be created in the current directory you're in.
+</br></br>![create database](./Screenshot_SQLiteShell.png)</br></br></br> 
+Once the database is created, you are within the SQLite Shell, where you now are able to use the database by running commands like SELECT, INSERT, UPDATE, DELETE, CREATE TABLE, ALTER TABLE... . The General syntax of commands within the shell is: COMMAND [OPTIONS] [DATABASE] [TABLE]. 
+</br></br>![SetUp SQLiteDB](./Screenshot_SetUPConsole.png)</br></br></br> 
+If you want to look up the tables currently present in your database, enter '.tables' within the Shell. 
+</br></br>![lookup tables](./Screenshot_tables.png)</br></br></br> 
+To look up the schema of a specific table, enter '.schema "tableName"'. 
+</br></br></br>![schema of a table](./Screenshot_schema.png)</br></br></br>
+In order to look up all databases within your current SQLite connection, use '.databases'.
+</br></br>![preAttach](./Screenshot_preAttach.png)</br></br></br> 
+This will list all databases with their path. Database files can be added to the current connnection using the 'ATTACH DATABASE "PATH/TO/.dbFile" AS alias'
+</br></br>![postAttach](./Screenshot_postAttach.png)</br>
+But be careful, if you forget the the file type, here to see in the "aliasDB", where I forgot the .db, the database will be a virtual database (transient in-memory database), instead of a physical, which means it is not Persistent, but stored in the RAM. This also applies for not specifying the exact database when calling only 'sqlite3'
+</br></br>You can exit the SQLite shell with '.quit'. 
+</br></br>![quit shell](./Screenshot_quitShell.png)</br></br></br>
 
 # Integrate into Application
 
