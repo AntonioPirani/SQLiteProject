@@ -1,4 +1,4 @@
 ## Contents
 
 - [Presentation](/Presentation)</br>
-- [Installation & Setup Guide](/Setup-Guide/ReadMe.md)
+- [Getting Started with SQLite](/Setup-Guide/ReadMe.md)
