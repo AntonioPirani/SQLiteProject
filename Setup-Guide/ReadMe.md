@@ -1,4 +1,4 @@
-# Installaton & Setup-Guide
+# Getting started with SQLite
 
 ### Contents
 - [Installation](#installation)
