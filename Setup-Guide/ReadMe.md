@@ -36,9 +36,9 @@ After successfully installing SQLite, you can create a database with the console
 Once the database is created, you are within the SQLite Shell, where you now are able to use the database by running commands like SELECT, INSERT, UPDATE, DELETE, CREATE TABLE, ALTER TABLE... . The General syntax of commands within the shell is: COMMAND [OPTIONS] [DATABASE] [TABLE]. 
 </br></br>![SetUp SQLiteDB](./Screenshot_SetUPConsole.png)</br></br></br> 
 If needed, you can also add a trigger. A trigger is a procedural code that automatically executes in response to specific events in a database, such as insertions, updates, or deletions. It is associated with a table and performs actions based on the event, such as data validation, manipulation, or additional queries. Triggers help enforce data integrity, implement business rules, and automate tasks in a database system.
-</br></br>![Trigger SQLite]()</br></br></br>
-In order to display the data in a table in a wished format, you can create a view.
-</br></br>![View SQLite]()</br></br></br>
+</br></br>![Trigger SQLite](./Screenshot_Create_Trigger.png)![UseTrigger](./Screenshot_UseTrigger.png)</br></br></br>
+In order to display the data in a table in a wished format, you can create a view, saving you time to not always have to type a new SELECT statement.
+</br></br>![View SQLite](./Screenshot_CreateView.png)</br></br></br>
 If you want to look up the tables currently present in your database, enter '.tables' within the Shell. 
 </br></br>![lookup tables](./Screenshot_tables.png)</br></br></br> 
 To look up the schema of a specific table, enter '.schema "tableName"'. 
@@ -52,7 +52,7 @@ But be careful, if you forget the the file type, here to see in the "aliasDB", w
 </br></br>![quit shell](./Screenshot_quitShell.png)</br></br></br>
 
 # Integrate into Application
-
+[Click here]() in order to see an example implementation in C.
 
 
 # ACID properties
