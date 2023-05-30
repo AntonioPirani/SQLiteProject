@@ -48,7 +48,7 @@ But be careful, if you forget the the file type, here to see in the "aliasDB", w
 </br></br>![quit shell](./Screenshot_quitShell.png)</br></br></br>
 
 # Integrate into Application
-[Click here](/Setup-Guide/C-Example/SQLiteInC.c) in order to see an example implementation in C.
+[Click here](/Getting-Started/C-Example/SQLiteInC.c) in order to see an example implementation in C.
 
 
 # ACID properties
