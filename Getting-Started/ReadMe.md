@@ -52,6 +52,7 @@ But be careful, if you forget the the file type, here to see in the "aliasDB", w
 
 
 # ACID properties
+This section explains how to test the ACID properties within a Database.
 ## Atomicity
 SQLite is Atomic. This means, that all changes to the database are performed together. Either they all succeed, or they all fail. You can test this by making two changes and then either ROLLBACK or COMMIT. Look for not-ROLLBACKED and not-COMMITED changes. Check combinations of rows changed by 1 UPDATE, rows changed by 2 UPDATEs in the same table, different tables or different attached databases.</br></br>![atomicity test](./Screenshot_AtomicityTest.png)</br></br></br>
 
