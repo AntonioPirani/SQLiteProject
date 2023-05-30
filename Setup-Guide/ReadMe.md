@@ -4,10 +4,6 @@
 - [Installation](#installation)
   - [Download](#download)
   - [Building SQLite](#building-sqlite)
-  - Using Prebuilt Libraries
-    - Windows
-    - Mac
-    - Linux
 - [Set-Up](#set-up)
   - [Create a Database](#create-a-database)
   - [Integrate into Application](#integrate-into-application) 
@@ -52,7 +48,7 @@ But be careful, if you forget the the file type, here to see in the "aliasDB", w
 </br></br>![quit shell](./Screenshot_quitShell.png)</br></br></br>
 
 # Integrate into Application
-[Click here]() in order to see an example implementation in C.
+[Click here](/C-Example/SQLiteInC.c) in order to see an example implementation in C.
 
 
 # ACID properties
